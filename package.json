@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-starter-pack",
+  "version": "0.0.0",
+  "private": true,
+  "author": {
+    "name": "Dzakula Danijel",
+    "email": "danijeldzakula1991@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --cache --write './**/*.{js,jsx,ts,tsx,css,scss,md,json}' --config ./prettier.config.cjs"
+  },
+  "dependencies": {
+    "next": "14.2.11",
+    "react": "^18.3.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "10.4.19",
+    "clsx": "^2.1.1",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.11",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.7.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+}
