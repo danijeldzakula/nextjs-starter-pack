@@ -4,7 +4,7 @@
     </a>
 </p>
 
-# Next.js Starter Pack Boilerplate
+# Next.js / TypeScript - Starter Pack Boilerplate / 2024
 
 This Next.js Starter Pack serves as a starting point for future projects, with a focus on creating user interfaces and components. It uses the latest versions of Next.js (14.2.11) for server-side rendering and React (18.3.1) for developing interactive UI elements.
 
