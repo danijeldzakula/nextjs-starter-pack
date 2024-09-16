@@ -13,9 +13,9 @@ This Next.js Starter Pack serves as a starting point for future projects, with a
 ```bash 
 # Clone repository code 
 
-$ git clone <URL-OF-REPO>
+$ git clone https://github.com/danijeldzakula/nextjs-starter-pack.git
 
-$ cd <NAME-OF-REPO>
+$ cd nextjs-starter-pack
 ```
 
 ## Requirements
